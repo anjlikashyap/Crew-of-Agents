@@ -1,4 +1,3 @@
-# Crew-of-Agents
 # CrewAI Blood Test Report Analysis API
 
 This API uses the CrewAI framework to analyze blood test reports, search for relevant health articles, and provide personalized recommendations to users via email.
