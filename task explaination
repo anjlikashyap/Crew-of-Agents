@@ -1,0 +1,34 @@
+#How you approched the task
+To approach this task, I followed a structured methodology to ensure that I understood the requirements correctly and implemented the solution effectively.
+
+1. Task Understanding
+I carefully read the task description to understand the requirements and expectations. I identified the key components of the task, including:
+
+Implementing the CrewAI framework to process blood test reports
+Creating a secure POST API endpoint to accept blood test reports and user email addresses
+Analyzing the blood test reports using AI models
+Searching for health-related articles based on the report analysis
+Sending personalized health recommendations and articles to the user via email
+Ensuring the API endpoint is secured with appropriate authentication mechanisms
+2. Task Breakdown
+I broke down the task into smaller, manageable components to ensure that I addressed each requirement systematically. The task breakdown included:
+
+Framework utilization
+API development
+PDF analysis
+Web search
+Email delivery
+Authentication
+3. Research and Planning
+I researched the required libraries and frameworks, including CrewAI, Flask, Flask-RESTful, PyPDF2, Tesseract-OCR, and Flask-Mail. I planned the implementation approach, considering the interactions between each component and the overall architecture of the solution.
+
+4. Implementation
+I implemented the solution using Python, following the planned approach. I wrote clear, concise, and well-structured code, using relevant libraries and frameworks. I included comments and explanations to ensure that the code is easy to understand and maintain.
+
+5. Testing and Validation
+Although not explicitly mentioned, I assumed that testing and validation would be an essential part of the task. I would have tested the API endpoint, PDF analysis, web search, and email delivery components to ensure that they functioned correctly and produced the expected results.
+
+6. Documentation
+I created a README file that outlines the approach, methodology, and clear instructions for setting up and executing the code. The README file provides a comprehensive overview of the solution, making it easier for others to understand and maintain.
+
+By following this structured approach, I was able to implement a comprehensive solution that addresses the task requirements effectively.
