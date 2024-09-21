@@ -1,0 +1,58 @@
+Steps to Run the Code
+
+To run the code, follow these steps:
+
+1. Install Required Libraries
+Install the required libraries using pip:
+
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+pip install crewai flask flask_restful flask_cors PyPDF2 pytesseract pillow flask_mail flask_httpauth
+2. Set up CrewAI Framework
+Set up the CrewAI framework using the provided documentation and tutorials.
+
+3. Configure Email Settings
+Configure the email settings in app.config. You'll need to provide your email server details, such as the SMTP server, username, and password.
+
+4. Run the API
+Run the API using:
+
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+python app.py
+This will start the Flask development server, and the API will be available at http://localhost:5000.
+
+5. Send a POST Request
+Send a POST request to the /api/report endpoint with the blood test report PDF file and user's email address. You can use a tool like Postman or cURL to send the request.
+
+Example using cURL:
+
+bash
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+curl -X POST \
+  http://localhost:5000/api/report \
+  -H 'Content-Type: application/pdf' \
+  -T blood_test_report.pdf \
+  -d 'email=user@example.com'
+Replace blood_test_report.pdf with the actual file name and path, and user@example.com with the actual email address.
+
+6. Verify the Response
+Verify that the API responds with a JSON message indicating that the report has been processed and an email has been sent successfully.
+
+7. Check the Email
+Check the user's email inbox for the personalized health recommendations and articles.
+
+Note: This is a high-level implementation, and you may need to modify the code to fit your specific requirements. Additionally, you'll need to implement the logic for parsing the extracted text, searching for health-related articles, and sending the email.
